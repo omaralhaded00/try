@@ -1,4 +1,35 @@
-            $('#l1 br,#l2 br,#l3 br').remove()
+ $(`<img src="https://chatnsh.com/sico/z1efi94gtc10.gif" class="fl" style="width:100%;margin-top: 0.5px;background-color: white;">
+
+
+
+<hr class="primaryborder" style="margin: 5px 0px 5px;border-top: 2px solid;float: right;width: 100%;">
+    <a href="#" target="_blank" style="background: white;padding: 2px 0;width: 24%;font-size: 14px!important;border-radius: 50px  0;margin-right: 2px;border: none;border-top: 2px solid;border-bottom: 2px solid;font-family: 'jazeera-light',FontAwesome;" type="a" class="fr primaryborder btn btn-default">
+        اتصل بنا
+        <i style="margin-left: 2px;" class="fa fa-star-o"></i>
+    </a>
+    <a href="#" target="_blank" type="a" style="background: white;padding: 2px 0;width: 24%;font-size: 14px!important;border: none;border-top: 2px solid;border-bottom: 2px solid;border-radius: 0 50px ;margin-left: 5px;font-family: 'jazeera-light',FontAwesome;" class="fr primaryborder btn btn-default">
+    التطبيق
+    <i style="margin-left: 2px;" class="fa fa-heart-o"></i>
+    </a>
+    <a href="#" target="_blank" type="a" style="background: white;padding: 2px 0;width: 24%;font-size: 14px!important;border-radius: 50px  0;border: none;border-top: 2px solid;border-bottom: 2px solid;font-family: 'jazeera-light',FontAwesome;" class="fr primaryborder btn btn-default">
+        اشتراكات
+        <i style="margin-left: 2px;" class="fa fa-eye"></i>
+    </a>
+    <a href="#" target="_blank" style="background: white;padding: 2px 0;width: 24%;font-size: 14px!important;border: none;border-top: 2px solid;border-bottom: 2px solid;border-radius: 0 50px ;font-family: 'jazeera-light',FontAwesome;" type="a" class="fr primaryborder btn btn-default">
+        القوانين
+        <i style="margin-left: 2px;" class="fa fa-comments-o"></i>
+    </a>
+<hr class="primaryborder" style="margin: 5px 0px 5px;border-top: 2px solid;width: 100%;float: left;">`).insertBefore('.nav-tabs');
+            
+$(`<marquee class="label-primary fl" direction="right" width="99%" style="padding-top: 2px;font-family: 'jazeera-light',FontAwesome;height: 23px;color: white;border-radius: 5px;margin: 0 2px 2px!important;" onmouseover="this.stop()" onmouseout="this.start()" scrolldelay="0" scrollamount="3"> 
+        .  مرحبـا بكم في شات الفجر للجوال     .
+        <span style="background-color: white;border-radius: 10px;padding: 0px 7px 0;margin-top: 1px;border-top: 1px solid #fff0;">قريباً</span>
+        .افضل ادمن- افضل سوبر- افضل مبدع حائط - افضل مبدعه حائط - افضل زائر وافضل زائره لهذا الاسبوع     .
+        <span style="background-color: white;border-radius: 10px;padding: 0px 7px 0;margin-top: 1px;border-top: 1px solid #fff0;">قريباً</span>
+        </marquee>`).insertBefore('.lonline.light.break');
+
+
+           $('#l1 br,#l2 br,#l3 br').remove()
 			$('ul.nav.nav-tabs li a,#l1 input,#l2 input,#l3 input,#l1 button,#l2 button,#l3 button,div#l1,div#l2,div#l3').addClass('primaryborder')
 			$('label.label.label-primary.mini.fl').addClass('fr').removeClass('fl').css('width','auto')
 			$('#l2 input,#l3 input').addClass('fr')
@@ -137,7 +168,7 @@ div#tlogins .uzr{
                             
     $('a.fr.primaryborder.btn.btn-default,label.fl.label.loginstat, label.label.label-primary.mini.fr,.fr.borderg,label.fl.label.loginstat, span.s1.fa.fa-user.label.badgex.label-as-badge.label-success,.fr.borderg a,ul.nav.nav-tabs li a, ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li :focus,marquee.label-primary.fl span').css({'color':$('a.label.label-primary.fl').css('background-color')})
 $('.lonline.light.break').addClass('label-primary')
-$('.fr.borderg a').text('دوك موبايل')
+$('.fr.borderg a').text('عمر الحديد')
             
             
 $(window).resize();
