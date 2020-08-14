@@ -195,3 +195,29 @@ function rgbToHex(r, g, b) {
                 $('ul.nav.nav-tabs li a, ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li :focus,label.fl.label.loginstat, label.label.label-primary.mini.fr, .fr.borderg').css('background-color',rgbToHex(Number(dsfdm[0]),Number(dsfdm[1]), Number(dsfdm[2])))
             }
                             
+
+
+$(`<style>
+.rpwd {width: 60%!important;border-radius: 50px!important;border:2px solid;}
+.uroomz.border {width: fit-content!important;border-radius: 50px!important;margin-top: -46px!important;margin-left: 200px!important;}
+.roomz.selbox.form-control {width: 100%!important;border:2px solid;border-radius: 50px!important;}
+.upower.border {width: fit-content!important;border-radius: 50px!important;margin-top: -47px!important;margin-left: 190px!important;}
+.userpower.selbox.form-control {width: 100%!important;border:2px solid;border-radius: 50px!important;}
+.userdays {width: 56%!important;border-radius: 50px!important;border:2px solid;}
+.ulikec.border {width: fit-content!important;border-radius: 50px!important;border:2px solid;}
+.likec {width: 56%!important;border-radius: 50px!important;border:2px solid;}
+.ae.fa.chats.label.fa-comment.label-primary {width:46px!important;border-radius: 0px 0px 0px 0px!important}
+.ae.fa.label.label-primary.fa-user {width:46px!important;border-radius: 30px 0px 0px 30px!important;}
+.ae.fa.label.label-primary.fa-users {width: 85px!important;border-radius: 0px 0px 0px 0px!important;margin-left: 0px!important;}
+.ae.fa.label.label-primary.fa-commenting-o {width: 85px!important;border-radius: 0px 0px 0px 0px!important;margin-left: 0px!important;}
+.ae.fa.label.fa-users.btnClAlGr {width:25px!important;border-radius: 0px 30px 30px 0px!important;margin-left: 0px!important;}
+.ae.label.label-primary.fa.fa-gear {width: 30px!important;border-radius: 0px 0px 0px 0px!important;}
+
+</style>`).insertBefore('body');
+$('.uzr.fl.corner.borderg').css({'margin': '0px 0',borderRight: '0px solid #ffffff',borderLeft: '0px solid #ffffff',borderTop: '.0px solid #ffffff',borderBottom: '.0px solid #ffffff',paddingTop: '3px',borderRadius: '0px 0px 0px 0px'});
+$('.nav-tabs').addClass('fl').css('width','100%');
+$('.checkbox label').html(`<input id="stealth" type="checkbox" value="" maxlength="10"><i class="fa fa-eye-slash" aria-hidden="true">`)
+
+$(`<center><div style="!important; "  id="ye" margin: 2px;" class="fa fa-heartbeat label label-primary" type="button" data-toggle="collapse" data-target="#demo" aria-expanded="false" aria-controls="collapseExample">&nbsp; ● ·( sound cloud  )· ● &nbsp;</div><div class="collapse" id="demo"><center><div class="well"><p lass="bg-primary"></i></p>مُحرك بحث .. ساوند كلاود </p><iframe width="100%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://m.soundcloud.com"></iframe>`).insertBefore('#d2');
+
+				
